@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/328/199/678/snow-snowdrops-monochrome-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 102%;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: url("https://e0.pxfuel.com/wallpapers/179/979/desktop-wallpaper-%DC%93-grayscale-graphy-of-grass-field-background-black-grass.jpg");
+}
+
+h1 {
+    color: #333;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4bf1f7;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0fdbe2;
+}
+
+#weather-info {
+    margin-top: 20px;
+}
